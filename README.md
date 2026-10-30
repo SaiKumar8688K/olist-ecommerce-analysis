@@ -100,16 +100,26 @@ These are recommendations for further business investigation, not proof that a p
 ```text
 olist-ecommerce-analysis/
 │
-├── .gitignore
 ├── README.md
-├── database.sql
-├── data_cleaning_&_understanding.ipynb
+├── .gitignore
 │
-├── 01_sales_analysis.sql
-├── 02_product_category_analysis.sql
-├── 03_customer_analysis.sql
-├── 04_regional_analysis.sql
-└── 05_delivery_analysis.sql
+├── python/
+│   └── data_cleaning_&_understanding.ipynb
+│
+├── sql/
+│   ├── database.sql
+│   ├── 01_sales_analysis.sql
+│   ├── 02_product_category_analysis.sql
+│   ├── 03_customer_analysis.sql
+│   ├── 04_regional_analysis.sql
+│   └── 05_delivery_analysis.sql
+│
+├── powerbi/
+│   └── ecommerce olist project.pbix
+│
+└── dashboard/
+    ├── executive_overview.png
+    └── customer_delivery_analysis.png
 ```
 
 ## Dataset
